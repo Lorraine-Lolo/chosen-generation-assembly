@@ -1,4 +1,4 @@
-     <!DOCTYPE html>
+   <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -14,6 +14,29 @@
       line-height: 1.6;
       text-align: center;
     }
+      /* OVERRIDE CENTERING - Make text readable */
+.container, .content, main, section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+p, li, .details, .about, .announcement {
+  text-align: left !important;
+  max-width: 65ch;
+  margin: 0 auto 1.2em auto;
+}
+
+h1, h2, h3, .title, .church-name {
+  text-align: center;
+}
+
+ul, ol {
+  text-align: left;
+  max-width: 65ch;
+  margin: 0 auto 1.2em auto;
+  padding-left: 20px;
+} 
     .card {
       background: white;
       max-width: 400px;
@@ -101,7 +124,7 @@
     </div>
 
     <div class="details">
-      <p><span class="icon">📍</span> <strong>Where:</strong><br>1002 Eye Court, Waterfalls<br>Close to Greywood College</p>
+      <p><span class="icon">📍</span> <strong>Where:</strong><br>1002 EyeCourt, Waterfalls<br>Close to Greywood College</p>
       <p><span class="icon">⏰</span> <strong>When:</strong><br>Every Sunday, 9:30 AM – 12:30 PM</p>
       <p><span class="icon">👥</span> <strong>With:</strong><br>DP L Chivunga & Minister Chivunga</p>
     </div>
